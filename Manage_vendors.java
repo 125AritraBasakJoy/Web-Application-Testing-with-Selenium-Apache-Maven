@@ -60,8 +60,11 @@ public class Manage_vendors {
 				driver.findElement(By.xpath("//button[normalize-space(text())='Save']")).click();*/
 				
 				//Manage Order Section 
-				driver.findElement(By.xpath("//a[normalize-space(text())='Manage Order']")).click();
-				driver.findElement(By.xpath("//button[normalize-space(text())='Approve']")).click();
+				/*driver.findElement(By.xpath("//a[normalize-space(text())='Manage Order']")).click();
+				driver.findElement(By.xpath("//button[normalize-space(text())='Approve']")).click();*/
+
+		                //log Out
+				driver.findElement(By.xpath("//a[normalize-space(text())='Log Out']")).click();
 
 
 
